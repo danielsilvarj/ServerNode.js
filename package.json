@@ -1,0 +1,20 @@
+{
+  "name": "mysql1",
+  "version": "1.0.0",
+  "description": "Projeto Mysql",
+  "main": "server.js",
+  "script": {
+    "test": "echo ' Error: Banco nao especificado ' && exit 1",
+    "start": "node server.js "
+  },
+  "author": "aluno",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.0.5",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.18.10"
+  }
+}
